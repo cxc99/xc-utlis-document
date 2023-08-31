@@ -64,7 +64,7 @@ export default function ToolKit() {
         <Panel header="防抖" key="1">
           <pre className="language-jsx ">
             <code>
-              <div>toolKit.debounce()</div>
+              <div>toolKit.debounce(fn,wait)</div>
               <div>
                 初始值:{sum}{" "}
                 <Button type="primary" onClick={add}>
@@ -82,7 +82,7 @@ export default function ToolKit() {
         <Panel header="节流" key="2">
           <pre className="language-jsx ">
             <code>
-              <div>toolKit.debounce()</div>
+              <div>toolKit.debounce(fn,wait)</div>
               <div>
                 初始值:{sum}{" "}
                 <Button type="primary" onClick={add}>
