@@ -62,7 +62,7 @@ export default function ToolKit() {
 
       <Collapse defaultActiveKey={["1"]}>
         <Panel header="防抖" key="1">
-          <pre className="language-jsx ">
+          <pre className="language-jsx "> 
             <code>
               <div>toolKit.debounce(fn,wait)</div>
               <div>
@@ -82,7 +82,7 @@ export default function ToolKit() {
         <Panel header="节流" key="2">
           <pre className="language-jsx ">
             <code>
-              <div>toolKit.debounce(fn,wait)</div>
+              <div>toolKit.throttle(fn,wait)</div>
               <div>
                 初始值:{sum}{" "}
                 <Button type="primary" onClick={add}>
