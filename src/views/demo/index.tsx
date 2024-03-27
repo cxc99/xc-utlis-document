@@ -65,6 +65,8 @@ function demo() {
     child.current!.childFn();
   };
 
+  
+
   return (
     <div>
       <button onClick={onAdd}>添加银行</button>

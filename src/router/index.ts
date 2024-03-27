@@ -14,6 +14,7 @@ import arrayUtils from "../views/arrayUtils/index.tsx";
 import dispathUrl from "../views/dispathUrl/index.tsx";
 
 import toolKit from "../views/toolKit/index.tsx";
+import demo from "../views/demo/index.tsx";
 const routes = [
   {
     path: "/",
@@ -64,7 +65,7 @@ const routes = [
       icon: HeartOutlined,
     },
   },
-  { path: "/demo", element: Home },
+  { path: "/demo", element: demo },
 ];
 
 export default routes;
